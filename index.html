@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="http://chat.workerman.net/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://chat.workerman.net/css/jquery-sinaEmotion-2.1.0.min.css">
+</head>
+<body>
+
+<script type="text/javascript">
+    var ws = new WebSocket('ws://127.0.0.1:9501');
+    ws.onopen = function(evt) {
+        console.log("Connection open ...");
+        ws.send('{"type":"connect"}');
+    };
+    ws.onmessage = function(evt) {
+        console.log( "Received Message: " + evt.data);
+        ws.send('{"type":"login"}');
+    };
+    ws.onclose = function(evt) {
+        console.log("Connection closed.");
+    };
+</script>
+
+</body>
+</html>
