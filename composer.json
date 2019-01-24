@@ -11,5 +11,8 @@
             "name": "pengjian",
             "email": "szpengjian@gmail.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
 }
