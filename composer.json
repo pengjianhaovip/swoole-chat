@@ -1,5 +1,5 @@
 {
-    "name": "pengjian/swoole-chat",
+    "name": "wtdl/swoole-chat",
     "description": "一个基于laravel+swoole及时聊天",
     "type": "project",
     "require": {
