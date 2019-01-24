@@ -1,4 +1,6 @@
 {
+    "name": "wtdl/swoole-chat",
+    "description": "一个swoole-及时聊天系统",
     "require-dev": {
         "eaglewu/swoole-ide-helper": "dev-master"
     }
