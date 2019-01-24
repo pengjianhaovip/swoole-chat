@@ -1,0 +1,15 @@
+{
+    "name": "pengjian/swoole-chat",
+    "description": "一个基于laravel+swoole及时聊天",
+    "type": "project",
+    "require": {
+        "laravel/laravel": "5.7.*"
+    },
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "pengjian",
+            "email": "szpengjian@gmail.com"
+        }
+    ]
+}
